@@ -1,0 +1,345 @@
+<?xml version="1.0"?>
+<wp_option_tree>
+  <row>
+    <id>1</id>
+    <item_id>general_default</item_id>
+    <item_title>General</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>1</item_sort>
+  </row>
+  <row>
+    <id>2</id>
+    <item_id>omc_logo_image</item_id>
+    <item_title>Logo Image</item_title>
+    <item_desc>Upload your logo image (dimensions for the live preview logo are 254 X 96).</item_desc>
+    <item_type>upload</item_type>
+    <item_options></item_options>
+    <item_sort>2</item_sort>
+  </row>
+  <row>
+    <id>3</id>
+    <item_id>omc_favicon</item_id>
+    <item_title>Favicon Image</item_title>
+    <item_desc>Upload a favicon icon image for your site.</item_desc>
+    <item_type>upload</item_type>
+    <item_options></item_options>
+    <item_sort>3</item_sort>
+  </row>
+  <row>
+    <id>4</id>
+    <item_id>omc_google_analytics</item_id>
+    <item_title>Google Analytics Code</item_title>
+    <item_desc>Paste in your entire Google Analytics Code.</item_desc>
+    <item_type>textarea</item_type>
+    <item_options>7</item_options>
+    <item_sort>4</item_sort>
+  </row>
+  <row>
+    <id>5</id>
+    <item_id>omc_default_blog_style</item_id>
+    <item_title>Default Blog Style</item_title>
+    <item_desc>If you just want a simple blog - what style do you want?</item_desc>
+    <item_type>select</item_type>
+    <item_options>blog-style-1, blog-style-2</item_options>
+    <item_sort>5</item_sort>
+  </row>
+  <row>
+    <id>6</id>
+    <item_id>omc_default_slider</item_id>
+    <item_title>Enable Default Blog Slider</item_title>
+    <item_desc>If you are using the default blog for the homepage - enable the slider?</item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>Yes</item_options>
+    <item_sort>6</item_sort>
+  </row>
+  <row>
+    <id>7</id>
+    <item_id>general</item_id>
+    <item_title>Backgrounds &amp;amp; Colours</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>7</item_sort>
+  </row>
+  <row>
+    <id>8</id>
+    <item_id>omc_global_colour</item_id>
+    <item_title>Global Colour</item_title>
+    <item_desc>This is the main colour will affect all posts/pages/categories but can be overridden with the individual category and page options.</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>8</item_sort>
+  </row>
+  <row>
+    <id>9</id>
+    <item_id>omc_background_preset</item_id>
+    <item_title>Background Preset</item_title>
+    <item_desc>Here are some background presets. Courtesy of www.subtlepatterns.com</item_desc>
+    <item_type>select</item_type>
+    <item_options>Argyle, Broken_noise, Diagonal_striped_brick, Dvsup, Graphy, Hexellence, Inflicted, Kuji,  Light_wool, Nami, Pinstriped_suit, Purty_wood, Purty_wood_bw, tactile_noise, tasky_pattern</item_options>
+    <item_sort>9</item_sort>
+  </row>
+  <row>
+    <id>10</id>
+    <item_id>omc_global_background</item_id>
+    <item_title>Background Image</item_title>
+    <item_desc>This is the main background will affect all posts/pages/categories. To further brand your categories you can use the &amp;quot;Transparent Layer&amp;quot;.</item_desc>
+    <item_type>upload</item_type>
+    <item_options></item_options>
+    <item_sort>10</item_sort>
+  </row>
+  <row>
+    <id>11</id>
+    <item_id>omc_background_css</item_id>
+    <item_title>Background Position</item_title>
+    <item_desc></item_desc>
+    <item_type>select</item_type>
+    <item_options>Tiled, Static, jQuery Full Screen</item_options>
+    <item_sort>11</item_sort>
+  </row>
+  <row>
+    <id>12</id>
+    <item_id>omc_background_colour</item_id>
+    <item_title>Background Colour</item_title>
+    <item_desc>If you just want a plain background colour you can choose it here.</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>12</item_sort>
+  </row>
+  <row>
+    <id>13</id>
+    <item_id>omc_global_transparent_layer</item_id>
+    <item_title>Transparent Layer</item_title>
+    <item_desc>This is a layer on top of the background that you can use for more advanced transparency effects.</item_desc>
+    <item_type>upload</item_type>
+    <item_options></item_options>
+    <item_sort>13</item_sort>
+  </row>
+  <row>
+    <id>14</id>
+    <item_id>omc_main_shadow</item_id>
+    <item_title>Main Container Box Shadow</item_title>
+    <item_desc>You can adjust the strength of the main container&amp;#039;s box shadow here.</item_desc>
+    <item_type>select</item_type>
+    <item_options>None, Light, Medium, Strong</item_options>
+    <item_sort>14</item_sort>
+  </row>
+  <row>
+    <id>15</id>
+    <item_id>typography</item_id>
+    <item_title>Typography</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>15</item_sort>
+  </row>
+  <row>
+    <id>16</id>
+    <item_id>omc_header_font</item_id>
+    <item_title>Google Font</item_title>
+    <item_desc>Take a look at chapter 4.4 in the documentation. There you will find what fonts look good in this theme and what the correct base size is for the &amp;quot;Scale Fonts&amp;quot; option below.</item_desc>
+    <item_type>input</item_type>
+    <item_options>Open Sans, Terminal Dosis, Lato, Cabin, Ubuntu, Puritan</item_options>
+    <item_sort>16</item_sort>
+  </row>
+  <row>
+    <id>17</id>
+    <item_id>omc_global_font_scale</item_id>
+    <item_title>Scale fonts</item_title>
+    <item_desc>All fonts are based on em so if you change this value then all fonts will scale up and down accordingly.</item_desc>
+    <item_type>select</item_type>
+    <item_options>10px, 11px, 12px, 13px, 14px, 15px,16px,17px,18px,</item_options>
+    <item_sort>17</item_sort>
+  </row>
+  <row>
+    <id>18</id>
+    <item_id>omc_mobile_text</item_id>
+    <item_title>Mobile Paragraph Size</item_title>
+    <item_desc>If you want to adjust the paragraph font-size for mobile phones you can do so here.</item_desc>
+    <item_type>measurement</item_type>
+    <item_options></item_options>
+    <item_sort>18</item_sort>
+  </row>
+  <row>
+    <id>19</id>
+    <item_id>omc_desktop_text</item_id>
+    <item_title>Desktop Paragraph Font Size</item_title>
+    <item_desc>If you want to adjust the paragraph font-size for desktop/tablets you can do so here.</item_desc>
+    <item_type>measurement</item_type>
+    <item_options></item_options>
+    <item_sort>19</item_sort>
+  </row>
+  <row>
+    <id>20</id>
+    <item_id>omc_p_color</item_id>
+    <item_title>Paragraph Font Colour</item_title>
+    <item_desc>Alter the colour of your body copy here.</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>20</item_sort>
+  </row>
+  <row>
+    <id>21</id>
+    <item_id>branded_widget</item_id>
+    <item_title>Footer Social Widget</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>21</item_sort>
+  </row>
+  <row>
+    <id>22</id>
+    <item_id>omc_enable_footer_widget</item_id>
+    <item_title>Enable the branded widget?</item_title>
+    <item_desc>This turns on this widget. For reference, it is the first footer widget on the left of the theme&amp;#039;s live preview.</item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>Yes</item_options>
+    <item_sort>22</item_sort>
+  </row>
+  <row>
+    <id>23</id>
+    <item_id>omc_footer_widget_logo</item_id>
+    <item_title>Logo Upload</item_title>
+    <item_desc>Upload your logo (dimensions for the live preview are 168 X 57)</item_desc>
+    <item_type>upload</item_type>
+    <item_options></item_options>
+    <item_sort>23</item_sort>
+  </row>
+  <row>
+    <id>24</id>
+    <item_id>omc_footer_facebook</item_id>
+    <item_title>Facebook URL</item_title>
+    <item_desc>Paste in your Facebook URL. Empty and save to remove.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>24</item_sort>
+  </row>
+  <row>
+    <id>25</id>
+    <item_id>omc_footer_twitter</item_id>
+    <item_title>Twitter URL</item_title>
+    <item_desc>Paste in your Twitter URL. Empty and save to remove.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>25</item_sort>
+  </row>
+  <row>
+    <id>26</id>
+    <item_id>omc_footer_pinterest</item_id>
+    <item_title>Pinterest URL</item_title>
+    <item_desc>Paste in your Pinterest URL. Empty and save to remove.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>26</item_sort>
+  </row>
+  <row>
+    <id>27</id>
+    <item_id>omc_footer_vimeo</item_id>
+    <item_title>Vimeo URL</item_title>
+    <item_desc>Paste in your Vimeo URL. Empty and save to remove.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>27</item_sort>
+  </row>
+  <row>
+    <id>28</id>
+    <item_id>omc_footer_flickr</item_id>
+    <item_title>Flickr URL</item_title>
+    <item_desc>Paste in your Flickr URL. Empty and save to remove.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>28</item_sort>
+  </row>
+  <row>
+    <id>29</id>
+    <item_id>omc_footer_youtube</item_id>
+    <item_title>YouTube URL</item_title>
+    <item_desc>Paste in your YouTube URL. Empty and save to remove.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>29</item_sort>
+  </row>
+  <row>
+    <id>38</id>
+    <item_id>omc_footer_google</item_id>
+    <item_title>Google+ URL</item_title>
+    <item_desc>Add your Google+ page here. Empty and save to delete.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>30</item_sort>
+  </row>
+  <row>
+    <id>30</id>
+    <item_id>omc_footer_widget_text</item_id>
+    <item_title>Widget Text</item_title>
+    <item_desc>Put the your text for your widget in here.</item_desc>
+    <item_type>textarea</item_type>
+    <item_options>7</item_options>
+    <item_sort>31</item_sort>
+  </row>
+  <row>
+    <id>31</id>
+    <item_id>miscellaneous</item_id>
+    <item_title>Miscellaneous</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>32</item_sort>
+  </row>
+  <row>
+    <id>32</id>
+    <item_id>omc_enable_copyright</item_id>
+    <item_title>Enable Footer Copyright Area?</item_title>
+    <item_desc></item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>Yes</item_options>
+    <item_sort>33</item_sort>
+  </row>
+  <row>
+    <id>33</id>
+    <item_id>omc_top_menu</item_id>
+    <item_title>Enable Top Menu?</item_title>
+    <item_desc>This menu will appear at the very top of your page.</item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>Yes</item_options>
+    <item_sort>34</item_sort>
+  </row>
+  <row>
+    <id>34</id>
+    <item_id>omc_copyright_text</item_id>
+    <item_title>Copyright Text</item_title>
+    <item_desc>Short copyright info</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>35</item_sort>
+  </row>
+  <row>
+    <id>35</id>
+    <item_id>omc_gallery_page</item_id>
+    <item_title>Gallery Page URL</item_title>
+    <item_desc>When you create the gallery page paste the url in here.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>36</item_sort>
+  </row>
+  <row>
+    <id>36</id>
+    <item_id>custom_css</item_id>
+    <item_title>Custom CSS</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>37</item_sort>
+  </row>
+  <row>
+    <id>37</id>
+    <item_id>omc_custom_css</item_id>
+    <item_title>Custom CSS</item_title>
+    <item_desc>Paste in your custom css here. Please avoid altering the original css files as it&amp;#039;ll cause problems when you update the theme.</item_desc>
+    <item_type>textarea</item_type>
+    <item_options>20</item_options>
+    <item_sort>38</item_sort>
+  </row>
+</wp_option_tree>
