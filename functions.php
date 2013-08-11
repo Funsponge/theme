@@ -271,8 +271,7 @@ class Description_Walker extends Walker_Nav_Menu
 // Hide the admin bar for development
 //add_filter( 'show_admin_bar', '__return_false' );
 
-// show admin bar only for admins and editors 
-if (!current_user_can('edit_posts')) { add_filter('show_admin_bar', '__return_false'); }
+
 add_theme_support('post-formats', array('video', 'gallery', 'audio'));
 
 // add post-formats to posts
@@ -371,27 +370,3 @@ function register_adpress_styles()
  */
 add_action('init', 'register_adpress_styles');
 
-//Add login/logout link to naviagation menu
-function add_login_out_item_to_menu( $items, $args ){
-//change theme location with your theme location name	
-if( is_admin() ||  $args->theme_location != 'toplevel' )	return $items; 
-$redirect = ( is_home() ) ? false : get_permalink();	if( is_user_logged_in( ) )	$link = '<a href="' . wp_logout_url( $redirect ) . '" title="' .  __( 'Logout' ) .'">' . __( 'Logout' ) . '</a>';	else  $link = '<a href="' . wp_login_url( $redirect  ) . '" title="' .  __( 'Login' ) .'">' . __( 'Login' ) . '</a>';
-return $items.= '<li id="log-in-out-link" class="menu-item menu-type-link">'. $link . '</li>';
-}add_filter( 'wp_nav_menu_items', 'add_login_out_item_to_menu', 50, 2 );
-
-//Load custom login stylesheet
-function custom_login_css() {
-echo '<link rel="stylesheet" type="text/css" href="'.get_stylesheet_directory_uri().'/login/login-styles.css" />';
-}
-add_action('login_head', 'custom_login_css');
-
-//Replace title/url on login screen
-add_filter( 'login_headertitle', 'custom_login_title');
-function custom_login_title() {
-return 'Funsponge.net';
-}
-
-add_filter( 'login_headerurl', 'custom_login_header_url' );
-function custom_login_header_url($url) {
-return 'http://www.funsponge.net';
-}

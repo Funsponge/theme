@@ -40,7 +40,7 @@ body { background-color:#000; font-size:12px; font-family: 'Open Sans', sans-ser
 
 	strong, b {font-weight:700;}
 
-	blockquote {display:block; color:#5d5d5d; margin:0px 0px 20px 0px; font-family:"Times New Roman", serif; font-style:italic; font-size:1.4em;  padding:2px 20px 0px 20px; border-left:5px solid #ffba00;}
+	blockquote {display:block; float:right; color:#5d5d5d; width:45%; margin:0px 0px 20px 5%; font-family:"Times New Roman", serif; font-style:italic; font-size:1.5em;  padding:2px 20px 0px 20px; border-left:5px solid #eee;}
 
 		article#omc-full-article blockquote p { font-family:"Times New Roman", serif; font-style:italic; line-height:25px; margin:0px 0px;}
 		
@@ -72,7 +72,7 @@ body { background-color:#000; font-size:12px; font-family: 'Open Sans', sans-ser
 		
 		article#omc-full-article p {font-size:1.08333em; color:#444; line-height:20px;}
 		
-		article#omc-full-article ul {margin:20px 0px 20px 15px; list-style-type:square;}
+		article#omc-full-article ul {margin:20px 20px 20px 40px; list-style-type:square}
 		
 			article#omc-full-article ul li {margin-bottom:20px;}
 		
@@ -178,7 +178,6 @@ body { background-color:#000; font-size:12px; font-family: 'Open Sans', sans-ser
 
 		#back-top a:hover span {background-color:#f9ba00; background-position:0px 0px; opacity:1;}
 
-		#back-top {visibility:visible; opacity:1;} 
 		
 	/*==== header search ====*/
 	
@@ -431,11 +430,11 @@ article.omc-featured-post {position:relative; width:100%; height:310px; overflow
 
 	section#omc-main-fullwidth article#omc-full-article {width:95%; }
 	
-		article#omc-full-article h1.omc-post-heading-standard {display:block; margin-top:10px; margin-bottom:13px;}
+		article#omc-full-article h1.omc-post-heading-standard {display:block; margin-top:17px; margin-bottom:13px;}
 		
 		article#omc-full-article h1.omc-post-heading-audio {display:block; margin-top:17px; margin-bottom:17px;}
 		
-		article#omc-full-article h1.omc-post-heading-video {display:block; margin-bottom:13px;}
+		article#omc-full-article h1.omc-post-heading-video {display:block; margin-top:-32px; margin-bottom:13px;}
 
 		div.omc-article-top {display:block; width:100%; height:40px; position:absolute; bottom:0px; background:#000; padding:0px 10px; opacity:0.8}
 
@@ -544,9 +543,9 @@ article.omc-featured-post {position:relative; width:100%; height:310px; overflow
 		
 	/*==== video embed ====*/
 			
-	div.omc-main-video {position: relative; height: 350px; overflow: hidden;}
+	div.omc-main-video {position: relative; padding-bottom: 58%; padding-top: 40px; height: 0; overflow: hidden; margin:0px 00px -20px 00px;}
 
-	div.omc-main-video iframe,  div.omc-main-video object,  div.omc-main-video embed {position: absolute; border:none; top: 0; left: 0; width: 100%; height: 100%;}
+	div.omc-main-video iframe,  div.omc-main-video object,  div.omc-main-video embed {position: absolute; border:none; top: 0; left: 0; width: 100%; height: 87%;}
 	
 	
 	/*==== facebook styles ====*/
@@ -777,7 +776,7 @@ article.omc-featured-post {position:relative; width:100%; height:310px; overflow
 		 
 	.xoxo {list-style-type:none; margin-top:0px;}
 	
-	.xoxo > li {margin-bottom:20px;}
+	.xoxo > li {margin-bottom:40px;}
 
 	.xoxo ul {list-style-type:none; margin-top:0px;}
 
@@ -805,9 +804,9 @@ article.omc-featured-post {position:relative; width:100%; height:310px; overflow
 	/*==== Social Media Widget ====*/
 	.xoxo li.socialbox { margin-bottom: 0px; }
 	
-	.omc-social-media large {position:relative; width:290px; height:50px; }
+	.omc-social-media large {position:relative; width:290px; height:68px; }
 	 
-		a.omc-social-media-icon.large {float:left; display:block; background:#f2f2f2; margin-right:0px; width:50px; height:50px; text-align:center; -moz-transition:.01s linear; -webkit-transition:.01s ease-out; transition:.01s linear;}
+		a.omc-social-media-icon.large {float:left; display:block; background:#f2f2f2; margin-right:10px; width:90px; height:110px; text-align:center; -moz-transition:.01s linear; -webkit-transition:.01s ease-out; transition:.01s linear;}
 		
 		a.omc-social-media-icon.large.no-right {margin-right:0px;}
 		
@@ -843,22 +842,6 @@ article.omc-featured-post {position:relative; width:100%; height:310px; overflow
 			a.omc-social-media-icon.large span.omc-YouTube {position:relative; margin:auto; display:block; width:50px; height:50px; background: url(../images/social-media-large.png) scroll transparent -330px -55px no-repeat;}
 				
 				a.omc-social-media-icon.large span.omc-YouTube span {postition:absolute; top:0px; left:0px; display:block; width:50px; height:50px; background: url(../images/social-media-large.png) scroll transparent -330px 0px no-repeat;}
-				
-			a.omc-social-media-icon.large span.omc-steam {position:relative; margin:auto; display:block; width:50px; height:50px; background: url(../images/social-media-large.png) scroll transparent -385px -55px no-repeat;}
-				
-				a.omc-social-media-icon.large span.omc-steam span {postition:absolute; top:0px; left:0px; display:block; width:50px; height:50px; background: url(../images/social-media-large.png) scroll transparent -385px 0px no-repeat;}
-				
-			a.omc-social-media-icon.large span.omc-google {position:relative; margin:auto; display:block; width:50px; height:50px; background: url(../images/social-media-large.png) scroll transparent -440px -55px no-repeat;}
-				
-				a.omc-social-media-icon.large span.omc-google span {postition:absolute; top:0px; left:0px; display:block; width:50px; height:50px; background: url(../images/social-media-large.png) scroll transparent -440px 0px no-repeat;}
-	 
-			a.omc-social-media-icon.large span.omc-pinterest {position:relative; margin:auto; display:block; width:50px; height:50px; background: url(../images/social-media-large.png) scroll transparent -495px -55px no-repeat;}
-				
-				a.omc-social-media-icon.large span.omc-pinterest span {postition:absolute; top:0px; left:0px; display:block; width:50px; height:50px; background: url(../images/social-media-large.png) scroll transparent -495px 0px no-repeat;}
-				
-			a.omc-social-media-icon.large span.omc-mail {position:relative; margin:auto; display:block; width:50px; height:50px; background: url(../images/social-media-large.png) scroll transparent -550px -55px no-repeat;}
-				
-				a.omc-social-media-icon.large span.omc-mail span {postition:absolute; top:0px; left:0px; display:block; width:50px; height:50px; background: url(../images/social-media-large.png) scroll transparent -550px 0px no-repeat;}
 	 
 			
 			a.omc-social-media-icon.large {background: #ffffff;}
@@ -881,7 +864,6 @@ article.omc-featured-post {position:relative; width:100%; height:310px; overflow
 	div.omc-default-widget-wrapper {}
 	
 	div.omc-video-container {background:url(../images/preloader.gif) scroll transparent no-repeat center center}
-	div.omc-video-container {margin-bottom:20px;}
 
 	div.omc-video-container iframe,  div.omc-video-container object,  div.omc-video-container embed {/*position: absolute; border:none; top: 0; left: 0; width: 100%; height: 87%;*/}
  
@@ -905,7 +887,7 @@ article.omc-featured-post {position:relative; width:100%; height:310px; overflow
 	
 	h3.widgettitle {padding:6px 0px; background:#f9ba00; color:#FFF; font-size:1.16667em; text-shadow:none; margin-bottom:20px;}
 	
-		h3.widgettitle span {padding:0px 16px; background:#f9ba00; display:block;}
+		h3.widgettitle span {padding:6px 16px; background:#f9ba00;}
 		
 	
 	/*==== calender ====*/
@@ -962,7 +944,6 @@ article.omc-featured-post {position:relative; width:100%; height:310px; overflow
 		.omc-footer-widget .tagcloud a {padding:5px 8px 5px 8px; font-weight:400; margin: 0px -2px 1px 0px; display:inline-block;  background:#333; color:#AAA;  -moz-transition:.8s linear; -webkit-transition:.8s ease-out; transition:.8s linear; }
 		
 		.omc-footer-widget .tagcloud a:hover {background:#f9ba00; color:#FFF;  -moz-transition:.01s linear; -webkit-transition:.01s ease-out; transition:.01s linear;}
-		.omc-single-tags a {text-decoration:none !important;}
 			
 			
 	/*==== archives ====*/
@@ -1479,7 +1460,7 @@ ul.omc-contributers div#omc-author-social-icons a {margin-top:4px; margin-bottom
 		
 		/* 468x60 */
 		
-		#omc-top-banner {float:right; margin:5px 30px 0px 0px; width:468px; text-align:right;}
+		#omc-top-banner {float:right; margin:10px 40px 0px 0px; width:468px;}
 			
 			#omc-top-banner a:hover {background:none;}
 			
@@ -1489,7 +1470,7 @@ ul.omc-contributers div#omc-author-social-icons a {margin-top:4px; margin-bottom
 		
 		.omc-125-ads.omc-widget {width:330px; margin-bottom:0px;}		
 		
-		img.omc-125-ad {float:left; margin:0px 40px 20px 0px; width:125px;}
+		img.omc-125-ad {float:left; margin:0px 40px 40px 0px; width:125px;}
 			
 		img.omc-125-ad.no-right {float:left; margin:0px 0px 40px 0px;}
 
@@ -1502,19 +1483,16 @@ ul.omc-contributers div#omc-author-social-icons a {margin-top:4px; margin-bottom
 		
 			#omc-top-banner .image-campaign li a {display:block;}
 			
-			#omc-top-banner {float:none; margin:0px 0px 0px 0px; width:468px; padding-top:1px;}
+			#omc-top-banner {float:none; margin:0px; width:440px; padding-top:1px;}
 			
 			/* 125x125 */
 			
-			ul.xoxo li.widget_adpress_widget ul.image-campaign li {display:block; width:125px; height:125px; margin:0px 30px 20px 0px;}
+			ul.xoxo li.widget_adpress_widget ul.image-campaign li {display:block; width:125px; height:125px; margin:0px 30px 30px 0px;}
 			
 			ul.xoxo li.widget_adpress_widget ul.image-campaign li:nth-child(3n) {display:block; width:125px; height:125px; margin:0px 0px 20px 0px;}
 			
 			ul.xoxo li.widget_adpress_widget ul.image-campaign li a {display:block; width:125px; height:125px;}	
-			
-			.ul125 li {float:left; margin:0px 40px 20px 0px; width:125px; height:125px;}
-
-			.ul125 li:nth-child(even) {float:left; margin:0px 0px 20px 0px; width:125px; height:125px;}
+				
 				
 		}
 		
@@ -1536,11 +1514,7 @@ ul.omc-contributers div#omc-author-social-icons a {margin-top:4px; margin-bottom
 			
 			ul.xoxo li.widget_adpress_widget ul.image-campaign li:nth-child(2n) {display:block; width:125px; height:125px; margin:0px 0px 30px 10px;}
 			
-			ul.xoxo li.widget_adpress_widget ul.image-campaign li a {display:block; width:125px; height:125px;}	
-			
-			.ul125 li {float:left; margin:0px 20px 20px 0px; width:125px; height:125px;}
-
-			.ul125 li:nth-child(even) {float:left; margin:0px 0px 20px 0px; width:125px; height:125px;}
+			ul.xoxo li.widget_adpress_widget ul.image-campaign li a {display:block; width:125px; height:125px;}		
 			
 		}
 
@@ -1553,7 +1527,7 @@ ul.omc-contributers div#omc-author-social-icons a {margin-top:4px; margin-bottom
 			
 			#omc-top-banner .image-campaign li a {display:block;}
 			
-			#omc-top-banner {margin:-5px 0px 0px 0px; width:468px; float:right}
+			#omc-top-banner {margin:15px 40px 0px 0px; width:375px; float:right}
 			
 			/* 125x125 */
 			
@@ -1564,14 +1538,6 @@ ul.omc-contributers div#omc-author-social-icons a {margin-top:4px; margin-bottom
 			ul.xoxo li.widget_adpress_widget ul.image-campaign li a {display:block; width:110px; height:110px;}
 			
 			ul.xoxo li.widget_adpress_widget ul.image-campaign li a img{width:100%;height:100%;}
-			
-			.custom125 {float:left; margin:0px 10px 10px 0px; width:110px; height:110px;}
-
-			.custom125-no-right {float:left; margin:0px 0px 10px 0px; width:110px; height:110px;}
-			
-			.ul125 li {float:left; margin:0px 10px 10px 0px; width:110px; height:110px;}
-
-			.ul125 li:nth-child(even) {float:left; margin:0px 0px 10px 0px; width:110px; height:110px;}
 			
 		}			
 			
@@ -1587,15 +1553,12 @@ ul.omc-contributers div#omc-author-social-icons a {margin-top:4px; margin-bottom
 			
 			/* 125x125 */
 			
-			ul.xoxo li.widget_adpress_widget ul.image-campaign li {display:block; width:125px; height:125px; margin:0px 40px 20px 0px;}
+			ul.xoxo li.widget_adpress_widget ul.image-campaign li {display:block; width:125px; height:125px; margin:0px 40px 40px 0px;}
 		
 			ul.xoxo li.widget_adpress_widget ul.image-campaign li:nth-child(2n) {display:block; width:125px; height:125px; margin:0px 0px 40px 0px;}
 		
 			ul.xoxo li.widget_adpress_widget ul.image-campaign li a {display:block; width:125px; height:125px;}
 			
-			.ul125 li {float:left; margin:0px 40px 20px 0px; width:125px; height:125px;}
-
-			.ul125 li:nth-child(even) {float:left; margin:0px 0px 20px 0px; width:125px; height:125px;}
 		
 		}
 		
@@ -1691,14 +1654,6 @@ ul.omc-contributers div#omc-author-social-icons a {margin-top:4px; margin-bottom
 			ul.xoxo li.widget_adpress_widget ul.image-campaign.pr-300x100 li {display: block; width: 125px; height: 60px; margin: 0px 20px 30px 0px;}
 			
 		}
-		
- /* =====================================================================================
-	Custom Ad Classes
-	================================================================================== */
-	
-	.ul125 {overflow:auto;}
-	
-	.ul125 img {width:100%; height:100%;}
 					
  /* =====================================================================================
 	UPDATE v1.8.2
@@ -1706,52 +1661,19 @@ ul.omc-contributers div#omc-author-social-icons a {margin-top:4px; margin-bottom
 								
 .attachment-620x9999 {max-width:100%;}	
 
-a.omc-social-small.google {background-position:-272px -14px}		
+a.omc-social-small.google {background-position:-272px -14px}	
 
  /* =====================================================================================
-	Speech Bubbles
-	================================================================================== */		
+	UPDATE v1.8.3
+	================================================================================== */	
 
-.speech
-{
-	position: relative;
-	background-color: #fff;
-	border: 4px solid #666;
-	padding: 15px 5px 0px 10px;
-	list-style-position:inside;
-	margin: 0px !important;
-	-webkit-border-radius: 20px;
-	-moz-border-radius: 20px;
-	border-radius: 20px;
-	-webkit-box-shadow: 1px 1px 2px #888;
-	-moz-box-shadow: 1px 1px 2px #888;
-	box-shadow: 1px 1px 2px #888;
-}
-ul.speech
-{
-	font-size: 1.08333em;
-}
-.speech:before
+a#omc-logo img {max-width:100%}
 
-{
-	content: ' ';
-	position: absolute;
-	width: 0;
-	height: 0;
-	left: 125px;
-	top: -30px;
-	border: 15px solid;
-	border-color: transparent transparent #666 #666;
-}
-.speech:after
-{
-	content: ' ';
-	position: absolute;
-	width: 0;
-	height: 0;
-	left: 129px;
-	top: -20px;
-	border: 10px solid;
-	border-color: transparent transparent #fff #fff;
-}
-ins {background:white;}
+
+ /* =====================================================================================
+	UPDATE v1.8.4
+	================================================================================== */	
+
+a.omc-social-media-icon.large span.omc-GooglePlus {position:relative; margin:auto; display:block; width:50px; height:50px; background: url(../images/social-media-large.png) scroll transparent -385px -55px no-repeat;}
+				
+				a.omc-social-media-icon.large span.omc-GooglePlus span {postition:absolute; top:0px; left:0px; display:block; width:50px; height:50px; background: url(../images/social-media-large.png) scroll transparent -385px 0px no-repeat;}
