@@ -14,7 +14,7 @@ $omc_footer_vimeo = get_option_tree('omc_footer_vimeo', $theme_options, false);
 $omc_footer_youtube = get_option_tree('omc_footer_youtube', $theme_options, false);
 $omc_footer_google = get_option_tree('omc_footer_google', $theme_options, false);
 ?>
-	<?php var_dump($current_site); ?>
+	
 	<footer id="omc-boxed">
 	
 		<div id="omc-footer-border"></div>

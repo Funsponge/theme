@@ -2,6 +2,8 @@
 
 <section id="omc-main">	
 
+	<?php if ( have_posts() ) : while( have_posts() ) : the_post(); ?>
+
 	<article id="omc-full-article">	
 		<?php $omc_comment_type = get_post_meta(get_the_ID(), 'omc_comment_type_page', true);  ?>
 		
@@ -34,7 +36,7 @@
 		
 			<?php comments_template( '', true ); ?>
 			
-		<?php } ?>
+		<?php } endwhile; endif; ?>
 		
 	</article><!-- /omc-full-article -->
 
