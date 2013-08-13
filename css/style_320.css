@@ -90,7 +90,9 @@
 		
 		nav#omc-main-navigation {margin-bottom:30px; margin-top:10px;}
 		
-		a#omc-logo {display: block; text-align: center; margin:10px 0px 10px 0px;}
+		a#omc-logo {display: block; text-align: center; margin:10px 0px 10px 0px; max-width:96%}
+		
+		#omc-logo img { max-width: 100%; }
 		
 		span.omc-small-video-icon {display:block;}
 		
@@ -132,7 +134,7 @@
 		
 		p.omc-blog-one-exceprt {display:none;}
 
-		a.omc-social-media-icon.large {width:88px;}
+		a.omc-social-media-icon.large {width:58px;}
 		
 		article.omc-blog-one h2.omc-blog-one-heading {font-weight:400; font-size:1.5em; margin-bottom:10px; line-height:1.5em}
 		
