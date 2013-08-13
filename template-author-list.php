@@ -48,7 +48,8 @@ Template Name: Author List Page
 	
 		<h1><em>The Funsponges are...</em></h1>
 		
-	</div>	
+	</div>
+	
 <?php
 $display_admins = true;
 $order_by = 'registered'; // 'nicename', 'email', 'url', 'registered', 'display_name', or 'post_count'

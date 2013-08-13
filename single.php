@@ -133,8 +133,6 @@ remove_filter( 'the_excerpt', 'sharing_display', 19 ); ?>
 		
 <h1 class="omc-post-heading-<?php echo $format;?>"><?php the_title();?></h1>
 
-
-
     <?php if ($omc_criteria_display == 'b' || $omc_criteria_display == 'n' || $omc_criteria_display == '') {
         the_content();
     } ?>

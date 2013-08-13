@@ -55,7 +55,7 @@
 		
 		span.omc-small-video-icon {display:block;}
 		
-		#back-top {visibility:visible; opacity:1;} 
+		#back-top {visibility:hidden; opacity:0;} 
 		
 		article.omc-half-width-post.leading {height:auto;}
 		
@@ -75,9 +75,9 @@
 		
 		.omc-widget {width:290px; margin-bottom:7px;}
 		
-		a.omc-social-media-icon.large {width:50px; margin-right:8px;}
+		a.omc-social-media-icon.large {width:90px; margin-right:10px;}
 		
-		a.omc-social-media-icon.large.no-right {width:50px; margin-right:0px;}
+		a.omc-social-media-icon.large.no-right {width:90px; margin-right:0px;}
 		
 		div.omc-tabs-widget {width:290px;}
 		
@@ -111,11 +111,11 @@
 		
 		
 		
-		a#omc-logo {margin:0px 0px; display:inline-block; max-width: 100%;}
+		a#omc-logo {margin:0px 0px; display:inline-block;}
 		
 		span.omc-blog-two-stars-under {top:144px; right:0px;}
 		
-		a.omc-social-media-icon.large {height:60px;}
+		a.omc-social-media-icon.large {height:110px;}
 		
 		.flex-container.omc-resize-620 {margin-bottom:47px;}
 		
@@ -127,7 +127,7 @@
 		
 	/*==== Single Post ====*/
 	
-	article#omc-full-article h1 {font-size:2.4em;}
+	article#omc-full-article h1 {font-size:3em;}
 
 	div.omc-related-posts {width:650px}
 		
@@ -159,11 +159,7 @@
 
 	span.omc-blog2-icon {top: 62px; left: 61px;}
 	
-	span.omc-big-video-icon {position: absolute; top: 37%;  left: 47%;}
-	
-	/*==== video embed ====*/
-			
-	div.omc-main-video {height: 350px;}
+	span.omc-big-video-icon {position: absolute; top: 37%;  left: 47%; 
 	
 }
 		
@@ -172,4 +168,3 @@
 }
 
 span.omc-user-review-description em {display:inline;}
-

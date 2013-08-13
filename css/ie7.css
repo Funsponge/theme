@@ -183,3 +183,6 @@ nav#omc-main-navigation { MARGIN-BOTTOM: 60px;}
 
 a.omc-flex-category {top:-91px; filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.7071067811865476, M12=-0.7071067811865475, M21=0.7071067811865475, M22=0.7071067811865476); /* IE6,IE7 */} 
 
+.style1 ul.tabbernav li {width:33%;}
+
+header {height:100px;}

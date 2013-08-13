@@ -34,6 +34,12 @@ function wpe_excerpt($length_callback='', $more_callback='') {
     $output = get_the_excerpt();
     $output = apply_filters('wptexturize', $output);
     $output = apply_filters('convert_chars', $output);
+ 
+	$output = str_replace('[&hellip', '', $output);
+
     echo $output;
 }
+
+
+
 ?>

@@ -72,9 +72,9 @@
 		
 		.omc-widget {width:230px;  margin-bottom:9px;}
 		
-		a.omc-social-media-icon.large {width:50px; margin-right:25px;}
+		a.omc-social-media-icon.large {width:76px; margin-right:0px;}
 		
-		a.omc-social-media-icon.large.no-right {width:50px; margin-right:0px;}
+		a.omc-social-media-icon.large.no-right {width:76px; margin-right:0px;}
 		
 		div.omc-tabs-widget {width:225px;}
 		
@@ -113,15 +113,13 @@
 		
 		nav#omc-main-navigation {margin-bottom:15px; margin-top:20px;}
 		
-		a#omc-logo {margin:0px 0px; display:inline-block; max-width:34%}
-		
-		#omc-logo img { max-width: 100%; }
+		a#omc-logo {margin:0px 0px; display:inline-block;}
 		
 		.omc-quarter-width-category { height: 179px;}	
 		
 		span.omc-blog-two-stars-under {top:92px; right:0px}
 		
-		a.omc-social-media-icon.large {height:60px;}
+		a.omc-social-media-icon.large {height:108px;}
 		
 		.flex-container.omc-resize-620 {margin-bottom:30px;}
 		
@@ -181,9 +179,4 @@
 	
 	span.omc-user-review-description em {display:none;}
 	
-	/*==== video embed ====*/
-			
-	div.omc-main-video {height: 244px;}
-	
 }
-
