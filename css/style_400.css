@@ -133,7 +133,7 @@
 		
 		img.omc-image-blog-one {width:28%; margin: 4px 5% 1px 0px}
 		
-		a.omc-social-media-icon.large {width:138px;}
+		a.omc-social-media-icon.large {width:85px; height:70px;}
 		
 		.omc-quarter-width-category { height: 179px;}		
 		
@@ -169,5 +169,9 @@
 		span.omc-big-video-icon {position: absolute; top: 30%;  left: 42%;}
 		
 		span.omc-user-review-description em {display:none;}
+		
+		/*==== video embed ====*/
+			
+		div.omc-main-video {height: 247px;}
 		
 }
