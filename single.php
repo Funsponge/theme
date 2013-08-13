@@ -14,6 +14,12 @@ if (have_posts()) : while (have_posts()) : the_post();
 $url = (!empty($_SERVER['HTTPS'])) ? "https://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'] : "http://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
 ?>
 
+<?php if ( function_exists( 'sharing_display' ) )
+remove_filter( 'the_content', 'sharing_display', 19 ); ?>
+
+<?php if ( function_exists( 'sharing_display' ) )
+remove_filter( 'the_excerpt', 'sharing_display', 19 ); ?>
+
 <section id="omc-main">	
 
 	<article id="omc-full-article" class="omc-inner-<?php echo $format;?>">
@@ -123,6 +129,8 @@ $url = (!empty($_SERVER['HTTPS'])) ? "https://" . $_SERVER['SERVER_NAME'] . $_SE
 
         <?php } ?>
 
+<?php if ( function_exists( 'sharing_display' ) ) echo sharing_display(); ?>
+		
 <h1 class="omc-post-heading-<?php echo $format;?>"><?php the_title();?></h1>
 
     <?php if ($omc_criteria_display == 'b' || $omc_criteria_display == 'n' || $omc_criteria_display == '') {

@@ -253,6 +253,8 @@ if ($show_on_front === 'posts' && empty($category_color)) {$category_color = $om
 
 	div.omc-cat-top  {border-top-color:'.$category_color.'; !important}     
 	
+	blockquote {border-left-color:'.$category_color.'; !important)}
+
 	li.comment > div {border-bottom-color:'.$category_color.'; !important}
 	
 	');}
