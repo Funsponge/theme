@@ -102,6 +102,8 @@ color:#fff;
 .style1.tabberlive .tabbertab {
 background:none repeat scroll 0 0 #FFFFFF;
 padding:20px 0px 0px 0px;
+height:395px;
+overflow:hidden;
 }
 
 /* Example of using an ID to set different styles for the tabs on the page */
@@ -110,7 +112,7 @@ padding:20px 0px 0px 0px;
 .style1.tabberlive#tab2 {
 }
 .style1.tabberlive#tab2 .tabbertab {
- height:200px;
+ height:0px;
  overflow:auto;
 }
 
