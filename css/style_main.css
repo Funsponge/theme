@@ -804,71 +804,47 @@ article.omc-featured-post {position:relative; width:100%; height:310px; overflow
 		
 	/*==== Social Media Widget ====*/
 	.xoxo li.socialbox { margin-bottom: 0px; }
-	
-	.omc-social-media large {position:relative; width:290px; height:50px; }
 	 
-		a.omc-social-media-icon.large {float:left; display:block; background:#f2f2f2; margin-right:0px; width:50px; height:50px; text-align:center; -moz-transition:.01s linear; -webkit-transition:.01s ease-out; transition:.01s linear;}
+		a.omc-social-media-icon.large {display:block; width:50px; height:50px; -moz-transition:.01s linear; -webkit-transition:.01s ease-out; transition:.01s linear;}
 		
-		a.omc-social-media-icon.large.no-right {margin-right:0px;}
-		
-			a.omc-social-media-icon.large span.omc-Feedburner {position:relative; margin:auto; display:block; width:50px; height:50px; background: url(../images/social-media-large.png) scroll transparent 0px -55px no-repeat;}
+#social-container {
+  text-align: justify;
+  font-size: 0.1px; /* IE 9 & 10 don't like font-size: 0; */
+}
+#social-container div {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+#social-container:after {
+  content: '';
+  width: 100%; /* Ensures there are at least 2 lines of text, so justification works */
+  display: inline-block;
+}
+	a.omc-social-media-icon.large {display:inline-block; width:50px; height:50px; text-align:justify; -moz-transition:.01s linear; -webkit-transition:.01s ease-out; transition:.01s linear;}
 				
-				a.omc-social-media-icon.large span.omc-Feedburner span {postition:absolute; top:0px; left:0px; display:block; width:50px; height:50px; background: url(../images/social-media-large.png ) scroll transparent  0px 0px no-repeat;}
-	 
-		
-			a.omc-social-media-icon.large span.omc-Facebook {position:relative; margin:auto; display:block; width:50px; height:50px; background: url(../images/social-media-large.png) scroll transparent -110px -55px no-repeat;}
+			a.omc-social-media-icon.large span.omc-Twitter {display:block; width:50px; height:50px; background: url(../images/sidebar-social.png) scroll transparent 0px 0px no-repeat;}
 				
-				a.omc-social-media-icon.large span.omc-Facebook span {postition:absolute; top:0px; left:0px; display:block; width:50px; height:50px; background: url(../images/social-media-large.png) scroll transparent -110px 0px no-repeat;}
-	 
-		
-			a.omc-social-media-icon.large span.omc-Twitter {position:relative; margin:auto; display:block; width:50px; height:50px; background: url(../images/social-media-large.png) scroll transparent -55px -55px no-repeat;}
+				a.omc-social-media-icon.large span.omc-Twitter span {display:block; width:50px; height:50px; background: url(../images/sidebar-social.png) scroll transparent 0px -50px no-repeat;}
+
+			a.omc-social-media-icon.large span.omc-Facebook {display:block; width:50px; height:50px; background: url(../images/sidebar-social.png) scroll transparent -50px 0px no-repeat;}
 				
-				a.omc-social-media-icon.large span.omc-Twitter span {postition:absolute; top:0px; left:0px; display:block; width:50px; height:50px; background: url(../images/social-media-large.png) scroll transparent -55px 0px no-repeat;}
-	 
-			
-			a.omc-social-media-icon.large span.omc-Dribbble {position:relative; margin:auto; display:block; width:50px; height:50px; background: url(../images/social-media-large.png) scroll transparent -165px -55px no-repeat;}
+				a.omc-social-media-icon.large span.omc-Facebook span {display:block; width:50px; height:50px; background: url(../images/sidebar-social.png) scroll transparent -50px -50px no-repeat;}
+
+			a.omc-social-media-icon.large span.omc-google {display:block; width:50px; height:50px; background: url(../images/sidebar-social.png) scroll transparent -100px 0px no-repeat;}
 				
-				a.omc-social-media-icon.large span.omc-Dribbble span {postition:absolute; top:0px; left:0px; display:block; width:50px; height:50px; background: url(../images/social-media-large.png) scroll transparent -165px 0px no-repeat;}
-	 
-			
-			a.omc-social-media-icon.large span.omc-Forrst {position:relative; margin:auto; display:block; width:50px; height:50px; background: url(../images/social-media-large.png) scroll transparent -275px -55px no-repeat;}
+				a.omc-social-media-icon.large span.omc-google span {display:block; width:50px; height:50px; background: url(../images/sidebar-social.png) scroll transparent -100px -50px no-repeat;}
+
+			a.omc-social-media-icon.large span.omc-YouTube {display:block; width:50px; height:50px; background: url(../images/sidebar-social.png) scroll transparent -150px 0px no-repeat;}
 				
-				a.omc-social-media-icon.large span.omc-Forrst span {postition:absolute; top:0px; left:0px; display:block; width:50px; height:50px; background: url(../images/social-media-large.png) scroll transparent -275px 0px no-repeat;}
-	 
-			
-			a.omc-social-media-icon.large span.omc-Vimeo {position:relative; margin:auto; display:block; width:50px; height:50px; background: url(../images/social-media-large.png) scroll transparent -220px -55px no-repeat;}
+				a.omc-social-media-icon.large span.omc-YouTube span {display:block; width:50px; height:50px; background: url(../images/sidebar-social.png) scroll transparent -150px -50px no-repeat;}
+
+			a.omc-social-media-icon.large span.omc-Feedburner {display:block; width:50px; height:50px; background: url(../images/sidebar-social.png) scroll transparent -250px 0px no-repeat;}
 				
-				a.omc-social-media-icon.large span.omc-Vimeo span {postition:absolute; top:0px; left:0px; display:block; width:50px; height:50px; background: url(../images/social-media-large.png) scroll transparent -220px 0px no-repeat;}
-	 
-			a.omc-social-media-icon.large span.omc-YouTube {position:relative; margin:auto; display:block; width:50px; height:50px; background: url(../images/social-media-large.png) scroll transparent -330px -55px no-repeat;}
+				a.omc-social-media-icon.large span.omc-Feedburner span {display:block; width:50px; height:50px; background: url(../images/sidebar-social.png) scroll transparent -250px -50px no-repeat;}
 				
-				a.omc-social-media-icon.large span.omc-YouTube span {postition:absolute; top:0px; left:0px; display:block; width:50px; height:50px; background: url(../images/social-media-large.png) scroll transparent -330px 0px no-repeat;}
-				
-			a.omc-social-media-icon.large span.omc-steam {position:relative; margin:auto; display:block; width:50px; height:50px; background: url(../images/social-media-large.png) scroll transparent -385px -55px no-repeat;}
-				
-				a.omc-social-media-icon.large span.omc-steam span {postition:absolute; top:0px; left:0px; display:block; width:50px; height:50px; background: url(../images/social-media-large.png) scroll transparent -385px 0px no-repeat;}
-				
-			a.omc-social-media-icon.large span.omc-google {position:relative; margin:auto; display:block; width:50px; height:50px; background: url(../images/social-media-large.png) scroll transparent -440px -55px no-repeat;}
-				
-				a.omc-social-media-icon.large span.omc-google span {postition:absolute; top:0px; left:0px; display:block; width:50px; height:50px; background: url(../images/social-media-large.png) scroll transparent -440px 0px no-repeat;}
-	 
-			a.omc-social-media-icon.large span.omc-pinterest {position:relative; margin:auto; display:block; width:50px; height:50px; background: url(../images/social-media-large.png) scroll transparent -495px -55px no-repeat;}
-				
-				a.omc-social-media-icon.large span.omc-pinterest span {postition:absolute; top:0px; left:0px; display:block; width:50px; height:50px; background: url(../images/social-media-large.png) scroll transparent -495px 0px no-repeat;}
-				
-			a.omc-social-media-icon.large span.omc-mail {position:relative; margin:auto; display:block; width:50px; height:50px; background: url(../images/social-media-large.png) scroll transparent -550px -55px no-repeat;}
-				
-				a.omc-social-media-icon.large span.omc-mail span {postition:absolute; top:0px; left:0px; display:block; width:50px; height:50px; background: url(../images/social-media-large.png) scroll transparent -550px 0px no-repeat;}
-	 
-			
-			a.omc-social-media-icon.large {background: #ffffff;}
-			
 				span.omc-following-info {margin-top:9px; display:inline-block; font-size:0.91667em;}
-	
-	
-
-
-		
+			
 	/*==== Tabbed Widget ====*/
 
 	img.wpp-thumbnail:last 		
@@ -1503,7 +1479,7 @@ ul.omc-contributers div#omc-author-social-icons a {margin-top:4px; margin-bottom
 		
 			#omc-top-banner .image-campaign li a {display:block;}
 			
-			#omc-top-banner {float:none; margin:0px 0px 0px 0px; width:468px; padding-top:1px;}
+			#omc-top-banner {float:none; margin:0px 0px 0px -14px; width:468px; padding-top:0px;}
 			
 			/* 125x125 */
 			
@@ -1513,9 +1489,7 @@ ul.omc-contributers div#omc-author-social-icons a {margin-top:4px; margin-bottom
 			
 			ul.xoxo li.widget_adpress_widget ul.image-campaign li a {display:block; width:125px; height:125px;}	
 			
-			.ul125 li {float:left; margin:0px 40px 20px 0px; width:125px; height:125px;}
 
-			.ul125 li:nth-child(even) {float:left; margin:0px 0px 20px 0px; width:125px; height:125px;}
 				
 		}
 		
@@ -1527,7 +1501,7 @@ ul.omc-contributers div#omc-author-social-icons a {margin-top:4px; margin-bottom
 		
 			#omc-top-banner .image-campaign li a {display:block;}
 			
-			#omc-top-banner {float:none; margin:0px; width:300px; padding-top:1px;}
+			#omc-top-banner {float:none; margin:0 0 0 -10px; width:320px; padding-top:0px;}
 			
 			/* 125x125 */
 			
@@ -1538,10 +1512,6 @@ ul.omc-contributers div#omc-author-social-icons a {margin-top:4px; margin-bottom
 			ul.xoxo li.widget_adpress_widget ul.image-campaign li:nth-child(2n) {display:block; width:125px; height:125px; margin:0px 0px 30px 10px;}
 			
 			ul.xoxo li.widget_adpress_widget ul.image-campaign li a {display:block; width:125px; height:125px;}		
-			
-			.ul125 li {float:left; margin:0px 20px 20px 0px; width:125px; height:125px;}
-
-			.ul125 li:nth-child(even) {float:left; margin:0px 0px 20px 0px; width:125px; height:125px;}
 			
 		}
 
@@ -1554,7 +1524,7 @@ ul.omc-contributers div#omc-author-social-icons a {margin-top:4px; margin-bottom
 			
 			#omc-top-banner .image-campaign li a {display:block;}
 			
-			#omc-top-banner {margin:-5px 0px 0px 0px; width:468px; float:right}
+			#omc-top-banner {margin:0px; width:320px; float:right;}
 			
 			/* 125x125 */
 			
@@ -1569,10 +1539,6 @@ ul.omc-contributers div#omc-author-social-icons a {margin-top:4px; margin-bottom
 			.custom125 {float:left; margin:0px 10px 10px 0px; width:110px; height:110px;}
 
 			.custom125-no-right {float:left; margin:0px 0px 10px 0px; width:110px; height:110px;}
-			
-			.ul125 li {float:left; margin:0px 10px 10px 0px; width:110px; height:110px;}
-
-			.ul125 li:nth-child(even) {float:left; margin:0px 0px 10px 0px; width:110px; height:110px;}
 			
 		}			
 			
@@ -1593,10 +1559,6 @@ ul.omc-contributers div#omc-author-social-icons a {margin-top:4px; margin-bottom
 			ul.xoxo li.widget_adpress_widget ul.image-campaign li:nth-child(2n) {display:block; width:125px; height:125px; margin:0px 0px 40px 0px;}
 		
 			ul.xoxo li.widget_adpress_widget ul.image-campaign li a {display:block; width:125px; height:125px;}
-			
-			.ul125 li {float:left; margin:0px 40px 20px 0px; width:125px; height:125px;}
-
-			.ul125 li:nth-child(even) {float:left; margin:0px 0px 20px 0px; width:125px; height:125px;}
 		
 		}
 		
@@ -1697,9 +1659,20 @@ ul.omc-contributers div#omc-author-social-icons a {margin-top:4px; margin-bottom
 	Custom Ad Classes
 	================================================================================== */
 	
-	.ul125 {overflow:auto;}
-	
-	.ul125 img {width:100%; height:100%;}
+#container-125 {
+  text-align: justify;
+  font-size: 0.1px; /* IE 9 & 10 don't like font-size: 0; */
+}
+#container-125 div {
+  width: 125px;
+  height: 150px;
+  display: inline-block;
+}
+#container-125:after {
+  content: '';
+  width: 100%; /* Ensures there are at least 2 lines of text, so justification works */
+  display: inline-block;
+}
 					
  /* =====================================================================================
 	UPDATE v1.8.2
@@ -1764,6 +1737,6 @@ ul.speech
 
 /* =================================================
 	Adsense Background
-	============================================ */
+	============================================ 
 	
-ins {background:white;}
+ins {background:white;} */

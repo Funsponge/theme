@@ -113,13 +113,11 @@
 		
 		nav#omc-main-navigation {margin-bottom:15px; margin-top:20px;}
 		
-		a#omc-logo {margin:0px 0px; display:inline-block;}
+		a#omc-logo {width:375px; margin:0px 0px; display:inline-block;}
 		
 		.omc-quarter-width-category { height: 179px;}	
 		
 		span.omc-blog-two-stars-under {top:92px; right:0px}
-		
-		a.omc-social-media-icon.large {height:108px;}
 		
 		.flex-container.omc-resize-620 {margin-bottom:30px;}
 		
@@ -133,7 +131,7 @@
 		
 	article#omc-full-article h1 {font-size:2.4em;}
 
-	div.omc-related-posts {width:460px}	
+	div.omc-related-posts {width:460px;}	
 	
 	.gallery-to-slideshow ul.flex-direction-nav li a  {top:85px;}
 
