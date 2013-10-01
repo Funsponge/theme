@@ -257,6 +257,8 @@ if ($show_on_front === 'posts' && empty($category_color)) {$category_color = $om
 
 	li.comment > div {border-bottom-color:'.$category_color.'; !important}
 	
+	.mtphr-dnt a {color:'.$category_color.';}
+	
 	');}
 	
 	// Echo out the background colour
