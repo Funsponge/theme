@@ -19,11 +19,7 @@ $omc_top_menu = get_option_tree('omc_top_menu', $theme_options, false);
 	
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 	
-	<title><?php bloginfo('name'); wp_title();?></title>
-	
 	<?php if ($omc_favicon !== NULL) { ?><link href="<?php echo $omc_favicon; ?>" rel="shortcut icon"/><?php } ?>
-	
-	<meta name="description" content="<?php bloginfo('description');?>">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
 		
