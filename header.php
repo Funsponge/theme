@@ -46,10 +46,6 @@ $omc_top_menu = get_option_tree('omc_top_menu', $theme_options, false);
 
 <body <?php body_class(); ?> >
 
-	<div id="fb-root">
-	</div>
-	<script>(function(d, s, id) {var js, fjs = d.getElementsByTagName(s)[0];  if (d.getElementById(id)) return;  js = d.createElement(s); js.id = id;  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";  fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>
-
 	<div id="omc-transparent-layer">
 	
 	<!-- <div class="preloaders" style=""></div>  -->
