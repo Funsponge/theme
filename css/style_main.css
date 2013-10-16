@@ -838,6 +838,10 @@ article.omc-featured-post {position:relative; width:100%; height:310px; overflow
 			a.omc-social-media-icon.large span.omc-YouTube {display:block; width:50px; height:50px; background: url(../images/sidebar-social.png) scroll transparent -150px 0px no-repeat;}
 				
 				a.omc-social-media-icon.large span.omc-YouTube span {display:block; width:50px; height:50px; background: url(../images/sidebar-social.png) scroll transparent -150px -50px no-repeat;}
+				
+			a.omc-social-media-icon.large span.omc-twitch {display:block; width:50px; height:50px; background: url(../images/sidebar-social.png) scroll transparent -200px 0px no-repeat;}
+				
+				a.omc-social-media-icon.large span.omc-twitch span {display:block; width:50px; height:50px; background: url(../images/sidebar-social.png) scroll transparent -200px -50px no-repeat;}
 
 			a.omc-social-media-icon.large span.omc-Feedburner {display:block; width:50px; height:50px; background: url(../images/sidebar-social.png) scroll transparent -250px 0px no-repeat;}
 				
