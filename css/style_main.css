@@ -40,9 +40,9 @@ body { background-color:#000; font-size:12px; font-family: 'Open Sans', sans-ser
 
 	strong, b {font-weight:700;}
 
-	blockquote {display:block; color:#5d5d5d; margin:0px 0px 20px 0px; font-family:"Times New Roman", serif; font-style:italic; font-size:1.4em;  padding:2px 20px 0px 20px; border-left:5px solid #ffba00;}
+	blockquote {display:block; color:#999999; margin:0px 0px 20px 0px; font-style:italic; font-size:1.1em;  padding:2px 20px 0px 20px; border-left:5px solid #ffba00;}
 
-		article#omc-full-article blockquote p { font-family:"Times New Roman", serif; font-style:italic; line-height:25px; margin:0px 0px;}
+		article#omc-full-article blockquote p { color:#999999; font-style:italic; line-height:25px; margin:0px 0px;}
 		
 		blockquote span {display:block; text-align:left; font-style:normal; font-size:0.5em; margin-top:10px; font-family:"Open Sans", Helvetica, Arial, sans-serif;}
 
